@@ -21,7 +21,7 @@
 
 This project is a **Jupyter Notebook** designed to scrape detailed data from the posts of a specific Instagram profile. The tool primarily relies on the **Selenium** library to simulate user behavior and overcome the dynamic loading limitations imposed by Instagram. It also utilizes **BeautifulSoup** and **Pandas** for data parsing, analysis, and storage.
 
-![Screenshot of Extracted Data Output](images/IMG_20251115_232545.png)
+
 
 ---
 
@@ -80,6 +80,9 @@ To start the scraping process, follow these steps in order:
     username.send_keys("YOUR_INSTAGRAM_USERNAME_HERE") 
     password.send_keys("YOUR_INSTAGRAM_PASSWORD_HERE") 
     ```
+![Screenshot of Extracted Data Output](images/IMG_20251115_232545.png)    
+
+    
     > ⚠️ **Note:** Ensure you check the login credentials carefully before running.
 
 3.  **Specify the Target Profile:** In the same **Cell No. 2**, modify the target page URL:
@@ -116,3 +119,4 @@ The detailed data is saved in a `CSV` file with the following columns:
 * **Risk of Blocking:** Scraping data may violate Instagram's Terms of Service. Use this tool responsibly and avoid scraping large volumes of data in a short time to prevent your account from being blocked.
 * **Frequent Updates:** This scraping method relies on Instagram's current HTML structure. The tool might stop working if Instagram changes its class names or XPaths.
 * **Use a Dedicated Account:** It is strongly recommended to use a secondary or **Dummy Instagram Account** to avoid compromising your main account.
+
