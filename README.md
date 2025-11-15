@@ -2,6 +2,8 @@
 
 > **A robust tool for scraping and analyzing data from Instagram posts (Likes, Comments, Hashtags, Caption) using browser automation (Selenium).**
 
+![Screenshot of Extracted Data Output](images/1fvPfcrPg1yLY1hYIA5xVfA.webp)
+
 ---
 
 ## 📋 Table of Contents
@@ -119,4 +121,5 @@ The detailed data is saved in a `CSV` file with the following columns:
 * **Risk of Blocking:** Scraping data may violate Instagram's Terms of Service. Use this tool responsibly and avoid scraping large volumes of data in a short time to prevent your account from being blocked.
 * **Frequent Updates:** This scraping method relies on Instagram's current HTML structure. The tool might stop working if Instagram changes its class names or XPaths.
 * **Use a Dedicated Account:** It is strongly recommended to use a secondary or **Dummy Instagram Account** to avoid compromising your main account.
+
 
